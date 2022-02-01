@@ -37,6 +37,9 @@ p{
     background-color:rgba(0,0,0,0) !important;
     border:none !important;
   }
+.banner_right{
+        padding-right: 10%;
+    }
 .book_img{
       width: 70%;
   }
