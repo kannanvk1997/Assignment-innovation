@@ -108,7 +108,10 @@ p{
         position: absolute;
         position: static;
     }
-        #chapters{
+    #chapters{
+        padding: 15% 0;
+    }
+    #features{
         padding: 15% 0;
     }
     #pricing{
