@@ -108,5 +108,13 @@ p{
         position: absolute;
         position: static;
     }
-
+        #chapters{
+        padding: 15% 0;
+    }
+    #pricing{
+        padding: 15% 0;
+    }
+    #calltoaction{
+        padding: 15% 0;
+    }
 }
