@@ -1,1 +1,112 @@
-gdfg
+p{
+    color: #aaaaaa;
+}
+#nav{
+    background-color: #333333;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+.nav-link{
+    font-weight: 600;
+  }
+.bi-list{
+    font-size: 35px;
+  }
+.navbar-nav{
+      display: none;
+  }
+.bi-list{
+      color: #49b970;
+  }
+  /* <---------------Banner---------------> */
+#banner{
+    background-color: #333333;
+    /* height: 80vh; */
+  }
+.input-group-text{
+    text-transform: uppercase;
+    background-color: #49b970;
+    border:none !important;
+    font-size: 14px;
+  }
+.position-relative{
+      top: 95px;
+  }
+.form-control{
+    background-color:rgba(0,0,0,0) !important;
+    border:none !important;
+  }
+.book_img{
+      width: 70%;
+  }
+  /* <---------------Features---------------> */
+#features{
+    margin-top: 10%;
+    padding: 6% 0;
+  }
+.btn-primary{
+    color: #fff;
+    border:none !important;
+    font-size: 12px;
+    background-color: #49b970;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+  /* <---------------chapters---------------> */
+
+#chapters{
+    padding: 6% 0;
+}
+  /* <---------------pricing---------------> */
+#pricing{
+    background-color: #fafafa;
+    padding: 6% 0;
+}
+.price_font{
+    font-size: 65px;
+}
+.price_font sup{
+    font-size: 12px;
+    top: -3em !important;
+}
+#calltoaction{
+    background-color: #333333;
+    padding: 6% 0;
+}
+.btn-success{
+    font-size: 12px;
+    background-color: #49b970;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+#footer{
+    background-color: #fafafa;
+}
+#footer .container span{
+    font-size: 12px;
+}
+
+/* <----------mediaQuery--------------> */
+@media only screen and (max-width: 992px) {
+    /* .navbar-brand img{
+        color: #000;
+    }
+    #nav{
+        background-color: #fff;
+    } */
+    .banner_right{
+        text-align: center;
+    }
+    .banner_right h1{
+        margin-top: 15%;
+    }
+    .book_img{
+        width: 100%;
+    }
+    .position-relative{
+        position: absolute;
+        position: static;
+    }
+
+}
